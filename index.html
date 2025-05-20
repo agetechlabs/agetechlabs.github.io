@@ -46,7 +46,7 @@
         /* Blog carousel section - right half */
         .blog-section {
             flex: 1;
-            background-color: #ffe5cc;
+            background-color: #f7f2e9;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -89,6 +89,37 @@
             color: #999;
         }
 
+        .post {  
+          background-color: #fff;  
+          border-radius: 8px;  
+          padding: 20px;  
+          margin-bottom: 20px;  
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+        }  
+
+        .date {  
+          font-size: 14px;  
+          color: #999;  
+        } 
+
+        .title {  
+          font-size: 24px;  
+          font-weight: bold;  
+          margin: 10px 0;  
+        }  
+  
+        .content {  
+          font-size: 16px;  
+          color: #333;  
+          margin-bottom: 10px;  
+        }  
+  
+        .read-more {  
+          text-decoration: none;  
+          color: #007BFF;  
+          font-weight: bold;  
+        }  
+        
         .top-left {
           position: absolute;
           top: 8px;
@@ -182,24 +213,28 @@
         <!-- Right section - Blog carousel -->
         <section class="blog-section">
             <h2>Latest Articles</h2>
-            <p>Discover our newest content</p>
             
             <!-- Blog carousel container -->
             <div class="carousel-container">
                 <!-- Blog Card 1 -->
-                <div class="blog-card">
-                    <h3>10 Tips for Better Productivity</h3>
-                    <p>Learn how to optimize your workflow and get more done in less time with these proven strategies.</p>
-                    <span class="date">May 15, 2023</span>
-                </div>
                 
+                <div class="post">  
+                    <div class="date">January 3, 2023</div>  
+                    <div class="title">The Art of Connection</div>  
+                    <div class="content">  
+                        In the ever-evolving world, the art of forging genuine connections remains timeless. Whether it’s with colleagues, clients, or partners, establishing a genuine rapport paves the way for collaborative success.  
+                    </div>  
+                    <a href="#" class="read-more">Read more →</a>  
+                </div>
                 <!-- Blog Card 2 -->
-                <div class="blog-card">
-                    <h3>The Future of Web Design</h3>
-                    <p>Explore emerging trends that will shape how we build websites in the coming years.</p>
-                    <span class="date">May 10, 2023</span>
-                </div>
-                
+                <div class="post">  
+                    <div class="date">January 5, 2023</div>  
+                    <div class="title">Beyond the Obstacle</div>  
+                    <div class="content">  
+                        Challenges in business are a given, but it’s our response to them that defines our trajectory. Looking beyond the immediate obstacle, there lies a realm of opportunity and learning.  
+                    </div>  
+                    <a href="#" class="read-more">Read more →</a>  
+                </div> 
                 <!-- Blog Card 3 -->
                 <div class="blog-card">
                     <h3>Getting Started with React</h3>
